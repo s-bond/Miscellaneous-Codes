@@ -1,0 +1,2 @@
+#include <iostream>
+using namespace std;int main(){int i=0,j=0,r[10],s=1;char c[21];while(i++<10){cin>>c;while(c[j++]!='\0'){if(c[j]=='L'||c[j]=='F'||c[j]=='G'||c[j]=='D'||c[j]=='T')s=s*2;r[i]=s;}s=1;j=0;}i=0;while(i++<10)cout<<r[i]<<endl;return 0;}

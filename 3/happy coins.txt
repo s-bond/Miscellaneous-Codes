@@ -1,0 +1,12 @@
+The most important thing to note out here is that the order of coins doesn’t matter.
+
+But how? Can you prove it?
+
+Lets say that lxh is ‘-’(negative) and hhb is ‘+’(positive). Is our assumption correct? 
+We’ll see…..According to the problem, if the chosen coins belong to the same person, the new coin will belong to
+hhb else lxh. Going with our assumption, 
+if the two signs are same it will result in ‘+’(hhb) else ‘-’(lxh),
+ which is obviously true. So irrespective of the order of coins chosen, 
+ if the number of ‘-’ coins is even it will result in ‘+’ else ‘-’.
+
+So we can see if the number of coins initially belonging to lxh is even, it will finally belong to hhb else lxh.
